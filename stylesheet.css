@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(104, 187, 285);
+}
+
+#header, #container, #footer{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+#experiences-box, #studies-box{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#header{
+    margin: 30px 30px 15px 30px;
+    padding-top: 30px;;
+    height: 100px;
+    text-align: center;
+}
+
+#container{
+    overflow: auto;
+    padding-bottom: 15px;
+}
+
+#left-box{
+    background-color: rgb(9, 30, 45);
+    color: white;
+    float: left;
+    height: 900px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 5px;    
+}
+
+#right-box{
+    float: right;
+    height: 720px;
+    width: 650px;
+    margin-top: 20px;
+}
+
+.photo{
+    margin: 20px 40px 20px 40px;
+}
+
+
+.p1{
+    text-align: center;
+}
+
+em{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.experience, .study{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+h2{
+    padding-left: 15px;
+}
+
+#footer{
+    margin-top: 15px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
